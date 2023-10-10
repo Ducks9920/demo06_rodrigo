@@ -1,1 +1,45 @@
+/*
+* --------------------------------------------
+* These are some styles of customizing 
+* to over-ride the default bootstrap ones
+*---------------------------------------------
+*/
+
+/*Given Colors:
+*Darkest: #0D1821
+*Accent: #344966
+*Light: #F6F8FF
+*Medium: 23CE6B
+*Dark: #1B9AAA
+*/
+.bg-info {
+  background-color: #23CE6B !important; /* Medium shade for navbar */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+  color: #F6F8FF; /* Light shade for brand name & nav links for contrast */
+}
+
+.btn-info {
+  color: #F6F8FF; /* Light shade for text on info button */
+  background-color: #344966; /* Accent color for button background */
+  border-color: #1B9AAA; /* Dark shade for button border */
+}
+
+.btn-primary {
+  color: #F6F8FF; /* Light shade for text */
+  font-size: 150%;
+  background-color: #344966; /* Dark shade for primary button background */
+  border-color: #0D1821; /* Darkest shade for border */
+  border-width: thick;
+}
+
+body {
+  background-color: #F6F8FF; /* Light shade for body background */
+}
+
+.navbar-brand{
+    font-family: 'Nunito'; /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
 
